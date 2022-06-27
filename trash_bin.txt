@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.981" height="1.591" viewBox="0 0 38.981 1.591">
+  <rect id="Rectangle_33" data-name="Rectangle 33" width="38.981" height="1.591" fill="#b2774f"/>
+</svg>
+
+ <table>
+        <tbody>
+            <tr>
+                <td>jmeno</td>
+                <td>vybrat</td>
+            </tr>
+            <tr>
+                <td>telefon</td>
+                <td rowspan="3">text</td>
+            </tr>
+            <tr>
+                <td>email</td>
+            </tr>
+            <tr>
+                <td>odeslat</td>
+            </tr>
+        </tbody>
+    </table>

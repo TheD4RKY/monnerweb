@@ -1,0 +1,93 @@
+
+
+.absoluteDiv{
+    width: 100%;
+     height: auto;
+     position: absolute;
+     z-index: -1;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr) 40px repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.absoluteDiv2{
+    
+     height: auto;
+     position: absolute;
+     z-index: 1;
+}
+
+.card{
+     
+     height: auto;
+    
+}
+
+::value {
+     color: white;
+}
+
+::placeholder {
+     padding-left: 2rem;
+}
+
+textarea::placeholder {
+     padding-top: 2rem;
+}
+
+a{
+     text-decoration: none;
+}
+
+.undercolor:hover{
+     color: #B2774F;
+}
+
+.undercolorbox{
+     background-color: #B2774F;
+     color: white;
+      transition: all 0.3s;
+}
+
+.undercolorbox:hover{
+     background-color: white;
+}
+
+.undercolorboxrev{
+     color: #B2774F;
+     background-color: white;
+      transition: all 0.3s;
+}
+
+.undercolorboxrev:hover{
+     background-color: #B2774F;
+     color: white;
+}
+
+.social{
+     filter: invert(0.30);
+      transition: all 1s;
+}
+
+.social:hover{
+    
+     filter: invert(0);
+}
+
+.undercolorblue{
+ color: white; 
+ background-color: #2C3443; 
+  transition: all 0.3s;
+}
+
+.undercolorblue:hover{
+    color: #2C3443; 
+ background-color: white;  
+
+     
+}
