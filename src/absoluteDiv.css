@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
 
 
 .absoluteDiv{
@@ -65,8 +66,8 @@ a{
 }
 
 .undercolorboxrev:hover{
-     background-color: #B2774F;
-     color: white;
+     color: white; 
+ background-color: #2C3443; 
 }
 
 .social{
@@ -86,8 +87,28 @@ a{
 }
 
 .undercolorblue:hover{
-    color: #2C3443; 
+ color: #2C3443; 
  background-color: white;  
+border:solid 3px #2C3443;
 
      
+}
+
+
+
+.brsonoma{
+     font-family: 'Montserrat';
+     font-weight: 400;
+}
+
+.undercolorboxspec{
+background-color: #B2774F;
+     color: white;
+      transition: all 0.3s;
+
+}
+
+.undercolorboxspec:hover{
+     background-color: white;
+     border:solid 3px #B2774F;
 }
